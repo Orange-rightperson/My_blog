@@ -1,0 +1,75 @@
+body{
+    background-color: #454545;
+    color:#eee;
+    line-height: 1.7;
+    margin:0px;
+}
+a{
+    color:#eee;
+    text-decoration: none;
+}
+.side-bar{
+    position: fixed;
+    float: left;
+    width: 20%;
+    color: white;  
+}
+.nav a, .tag-list a{
+    display: block;
+    padding: 5px 45px;
+    color: #888;
+}
+a:hover {
+    color: white;
+    transition:all 0.3s;
+}
+
+.nav, .sign-up{
+    margin-bottom: 20px;
+}
+.header a{
+    
+    display: inline-block;
+    font-size:25px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    border:5px solid #eee;
+    margin: 5px;
+}
+.sign-up{
+    padding: 0 15px ;
+    font-weight: 800;
+}
+.main {
+    float: right;
+    width: 80%;
+
+    color: #555;
+}
+.article-list{
+    margin-right: 30%;
+    padding:10px;
+    background: #fff;
+    box-shadow: 0 0 3px 2px rgba(0, 0,0, .2);;
+}
+.article-list .item{
+    margin-bottom: 25px;
+    margin:10px 0;
+}
+.article-list .item .title{
+    display: inline-block;
+    color:black;
+    font-size: 22px;
+    font-weight: 700;
+}
+.article-list .item .status{
+    font-size: 13px;
+}
+
+.article-list .item a:hover{
+    color: #eee;
+}
+.status{
+    color:#ccc;
+}
